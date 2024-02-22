@@ -40,13 +40,13 @@ let started = false;
 let roundOver = false;
 let gameOver = false;
 function preload() {
-  playerSprite = loadImage("/assets/sprite.png");
-  crewSprite = loadImage("/assets/crewSprite.png")
-  backgroundImage = loadImage("/assets/background.png");
-  redLaserSprite = loadImage("/assets/redLaser.png");
-  meteorOne = loadImage("/assets/meteor1.png");
-  meteorThree = loadImage("/assets/meteor3.png");
-  heartSprite = loadImage("/assets/heart.png");
+  playerSprite = loadImage("assets/sprite.png");
+  crewSprite = loadImage("assets/crewSprite.png")
+  backgroundImage = loadImage("assets/background.png");
+  redLaserSprite = loadImage("assets/redLaser.png");
+  meteorOne = loadImage("assets/meteor1.png");
+  meteorThree = loadImage("assets/meteor3.png");
+  heartSprite = loadImage("assets/heart.png");
 }
 function setup() {
   // 768x768 is used here as it was previously 1024x768 (a common resolution)
